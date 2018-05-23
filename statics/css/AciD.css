@@ -1,1 +1,92 @@
-.hljs{display:block;overflow-x:auto;padding:.5rem 1rem;background:#2b2b2b;color:#a9b7c6;border-radius:3px}.hljs-keyword,.hljs-literal,.hljs-name,.hljs-selector-tag,.hljs-strong,.hljs-tag{color:#06a5e5}.hljs-attr{color:#7eaef1}.hljs-number{color:#b08000}.hljs-code{color:#66d9ef}.hljs-class .hljs-title{color:#fff}.hljs-attribute,.hljs-link,.hljs-regexp,.hljs-symbol{color:#bf79db}.hljs-built_in,.hljs-section,.hljs-selector-attr,.hljs-string,.hljs-subst,.hljs-template-tag,.hljs-title,.hljs-type{color:#e6db74}.hljs-comment,.hljs-meta,.hljs-quote{color:grey}.hljs-doctag,.hljs-keyword,.hljs-literal,.hljs-section,.hljs-selector-id,.hljs-selector-tag,.hljs-title,.hljs-type{font-weight:400}
+/*
+ * AciD style, based on highlight.js' Monokai style
+ *
+ * - string E6DB74
+ * - field 7EAEF1
+ * brace 89BA26
+ * brackets 4FB54F
+ * parenthesis 43C3C7
+ * - operator CE0067
+ * - number B08000
+ * keyword 06A5E5
+ * valid character CE4D3F
+ * comment 808080
+ * class FFFFFF
+ */
+
+.hljs {
+    display       : block;
+    overflow-x    : auto;
+    padding       : 0.5rem 1rem;
+    background    : #2B2B2B;
+    color         : #A9B7C6;
+    border-radius : 3px;
+}
+
+.hljs-tag,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-strong,
+.hljs-name {
+    color : #06A5E5;
+}
+
+.hljs-attr {
+    color : #7EAEF1;
+}
+
+.hljs-number {
+    color : #B08000;
+}
+
+.hljs-code {
+    color : #66D9EF;
+}
+
+.hljs-class .hljs-title {
+    color : white;
+}
+
+.hljs-attribute,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-link {
+    color : #BF79DB;
+}
+
+.hljs-string,
+.hljs-bullet,
+.hljs-subst,
+.hljs-title,
+.hljs-section,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
+    color : #E6DB74;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+    color : #808080;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-selector-id {
+    font-weight : normal;
+}
